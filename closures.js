@@ -156,12 +156,21 @@ var counter = function(){
 
 //Next Problem
 
-var funcArray = function(array) {
-  for (var i = 0; i < array.length; i++)
-  return function{
-    console.log(i);
-  };
-}
+var funcArray = [function() {
+   return 0;
+ }, function() {
+   return 1;
+ }, function() {
+   return 2;
+ }, function() {
+   return 3;
+ }, function() {
+   return 4;
+ },
+ function() {
+   return 5;
+ }
+];
 
 /*
   Make the following code work
